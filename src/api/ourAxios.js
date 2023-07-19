@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const deploy = true;
+const deploy = false;
 
 const host = (deploy === true
   ? "/proxy/"
