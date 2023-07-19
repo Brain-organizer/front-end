@@ -3,7 +3,7 @@ import axios from "axios";
 const deploy = true;
 
 const host = (deploy === true
-  ? "proxy"
+  ? "/proxy/"
   :process.env.REACT_APP_SERVER_URL 
 );
 
